@@ -10,10 +10,11 @@ There are mock based unit test cases prepared to consider various scenarios whic
 
 I have prepared one REST Webservice exposed as given below:
 
-1. POST call
+1. POST request
 2. URL -> http://localhost:8080/api/v1/order/getDiscount
 3. Header -> Content-Type : application/json
 4. Body ->
+{code}
 	{
     	"user" : {
     		"username" : "bhavik"
@@ -37,3 +38,4 @@ I have prepared one REST Webservice exposed as given below:
     		}
     	]
     }
+{code}
