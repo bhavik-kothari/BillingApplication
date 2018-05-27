@@ -8,6 +8,8 @@ Kindly, setup the mysql database first by importing the "billing.sql" file, so t
 
 There are mock based unit test cases prepared to consider various scenarios which are covered up in OrderEndpoint class and other Service classes.
 
+Considering Spring Boot application, one can start the application by executing my.assignment.billing.BillingApplication.java which will deploy the application directly using tomcat. 
+
 I have prepared one REST Webservice exposed as given below:
 
 1. POST request
